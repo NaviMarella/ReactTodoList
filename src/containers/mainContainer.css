@@ -1,0 +1,12 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.todoContainer {
+    display: flex;
+    width: 100%;
+    flex: 3;
+    flex-direction: column;
+}

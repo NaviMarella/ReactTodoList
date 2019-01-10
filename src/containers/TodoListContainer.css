@@ -1,0 +1,17 @@
+.todoList__header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.todoList__header div{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.todolist__count{
+    justify-content: flex-end;
+}
