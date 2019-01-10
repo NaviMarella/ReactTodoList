@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import "./Box.css";
 
 const Box = ({children, type, ...otherProps}) => {
@@ -12,5 +13,9 @@ const Box = ({children, type, ...otherProps}) => {
         </div>
     )
 }
+
+Box.propTypes = {
+    type: PropTypes.string
+};
 
 export default Box;

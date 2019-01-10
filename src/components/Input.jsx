@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
 import "./Input.css";
 
 class Input extends Component{
@@ -8,13 +9,7 @@ class Input extends Component{
     }
 
     render(){
-        const {
-            type = "text",
-            value,
-            maxLength = "50",
-            placeholder = "Take a Note...",
-        } = this.props;
-
+        const { type, value, maxLength, placeholder } = this.props;
         return (
             <div className="input_container">
                 <input type={type} maxLength={maxLength} value={value} placeholder={placeholder} onChange={this.handleInputChange} />
@@ -22,5 +17,19 @@ class Input extends Component{
         )
     }
 }
+
+Input.defaultProps = {
+    type: "text",
+    maxLength: 50,
+    placeholder: "Take a Note"
+}
+
+Input.propTypes = {
+    placeholder: PropTypes.string,
+    type: PropTypes.string,
+    value: PropTypes.string,
+    maxLength: PropTypes.number
+};
+
 
 export default Input;

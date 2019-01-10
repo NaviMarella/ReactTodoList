@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import Box from "../components/Box";
 import Label from "../components/Label";
 import TodoListItem from "../components/TodoListItem";
@@ -25,5 +26,11 @@ const TodoListContainer = ({todoList = [], dispatch, currentLabel}) => {
          </Conditional>
     )
 }
+
+TodoListContainer.propTypes = {
+    todoList: PropTypes.array.isRequired,
+    currentLabel: PropTypes.string,
+    dispatch: PropTypes.func.isRequired
+};
 
 export default TodoListContainer

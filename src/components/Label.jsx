@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import "./label.css";
 import Conditional from "./Conditional";
 
@@ -17,5 +18,12 @@ const Label = ({text, children, hideText, crossText, ...otherProps}) => {
         </div>
     )
 }
+
+Label.propTypes = {
+    text: PropTypes.string.isRequired,
+    hideText: PropTypes.bool,
+    crossText: PropTypes.bool
+};
+
 
 export default Label

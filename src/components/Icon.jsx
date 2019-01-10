@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import Box from "./Box";
 import "./Icon.css";
 import workIcon from "../icons/work.svg";
@@ -25,5 +26,11 @@ const Icon = ({icon, iconName, altText ="", ...otherProps}) => {
         </Box>
     )
 }
+
+Icon.propTypes = {
+  icon: PropTypes.node,
+  iconName: PropTypes.string,
+  altText: PropTypes.string
+};
 
 export default Icon;

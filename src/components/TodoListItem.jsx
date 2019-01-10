@@ -1,13 +1,14 @@
+import PropTypes from 'prop-types';
 import React, { Component } from "react";
 import deleteIcon from "../icons/delete.svg";
 import editIcon from "../icons/edit.svg";
 import tickIcon from "../icons/tick.svg";
 import Checkbox from './Checkbox';
-import Icon from "./Icon";
-import Label from "./Label";
-import Input from "./Input";
-import "./TodoListItem.css";
 import Conditional from './Conditional';
+import Icon from "./Icon";
+import Input from "./Input";
+import Label from "./Label";
+import "./TodoListItem.css";
 
 class TodoListItem extends Component{
     constructor(props){
@@ -83,5 +84,10 @@ class TodoListItem extends Component{
         )
     }
 }
+
+TodoListItem.propTypes = {
+    todo: PropTypes.shape({}).isRequired,
+    dispatch: PropTypes.func.isRequired
+};
 
 export default TodoListItem;

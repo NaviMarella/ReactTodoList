@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 import Box from "./Box";
 import Button from "./Button";
 import Input from './Input';
@@ -30,7 +31,7 @@ class TodoForm extends Component {
     }
 
     render() {
-        const { direction = "row", placeholderText, maxLength } = this.props;
+        const { direction, placeholderText, maxLength } = this.props;
         const { todoText } = this.state;
         return (
             <Box type={direction === "column" ? "small" :"large"}>
@@ -43,5 +44,17 @@ class TodoForm extends Component {
         );
     }
 }
+
+TodoForm.defaultProps = {
+    direction: "row"
+}
+
+TodoForm.propTypes = {
+    direction: PropTypes.string,
+    placeholderText: PropTypes.string,
+    maxLength: PropTypes.number,
+    addTODO: PropTypes.func.isRequired
+};
+
 
 export default TodoForm;

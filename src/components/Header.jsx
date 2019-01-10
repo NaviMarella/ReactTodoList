@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import React from "react";
-import "./Header.css";
-import todoIcon from "../icons/todo.svg";
 import hamburgerIcon from "../icons/hamburger.svg";
+import todoIcon from "../icons/todo.svg";
+import "./Header.css";
 
 const Header = ({showOrHideSidebar}) => {
 
@@ -15,5 +16,9 @@ const Header = ({showOrHideSidebar}) => {
         </header>
     )
 }
+
+Header.propTypes = {
+    showOrHideSidebar: PropTypes.func.isRequired
+};
 
 export default Header;

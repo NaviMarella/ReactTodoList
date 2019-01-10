@@ -1,11 +1,12 @@
+import PropTypes from 'prop-types';
 import React from "react";
-import "./SidebarContainer.css";
-import Label from "../components/Label";
-import Box from "../components/Box";
-import Icon from "../components/Icon";
 import TodoForm from '../components/AddForm';
+import Box from "../components/Box";
 import Conditional from '../components/Conditional';
+import Icon from "../components/Icon";
+import Label from "../components/Label";
 import deleteIcon from "../icons/delete.svg";
+import "./SidebarContainer.css";
 
 const SidebarContainer = ({labels, currentLabel, hideText, setCurrentLabel, dispatch}) => {
     const styles = [
@@ -52,5 +53,13 @@ const SidebarContainer = ({labels, currentLabel, hideText, setCurrentLabel, disp
         </div>
     )
 }
+
+SidebarContainer.propTypes = {
+    labels: PropTypes.array.isRequired,
+    currentLabel: PropTypes.string,
+    hideText: PropTypes.bool,
+    dispatch: PropTypes.func.isRequired,
+    setCurrentLabel: PropTypes.func.isRequired
+};
 
 export default SidebarContainer;
