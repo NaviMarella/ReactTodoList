@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root Reducer Tests add label action snapshot 1`] = `
+Object {
+  "currentLabel": "test",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+    Object {
+      "id": "20w48qgyi",
+      "name": "test",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests add todo action snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+    Object {
+      "id": "3lr53hk1c",
+      "label": "TODOS",
+      "text": "test",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests delete label action snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests delete todo action snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests edit todo action snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests render custom state snapshot 1`] = `
+Object {
+  "id": 1,
+  "name": [Function],
+}
+`;
+
+exports[`Root Reducer Tests render default state snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests set current label action snapshot 1`] = `
+Object {
+  "currentLabel": "",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests toggle sidebar action snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": true,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;
+
+exports[`Root Reducer Tests toogle complete action snapshot 1`] = `
+Object {
+  "currentLabel": "TODOS",
+  "hideSidebar": false,
+  "labels": Array [
+    Object {
+      "id": 1,
+      "name": "TODOS",
+    },
+    Object {
+      "id": "hvkrsbnk1",
+      "name": "Work",
+    },
+    Object {
+      "id": "sm9z95wy8",
+      "name": "Groceries",
+    },
+  ],
+  "todoList": Array [
+    Object {
+      "id": "vrpkrk5ek",
+      "isCompleted": true,
+      "label": "TODOS",
+      "text": "Learn React",
+    },
+    Object {
+      "id": "512k2gpo0",
+      "isCompleted": true,
+      "label": "Groceries",
+      "text": "Buy Vegetables",
+    },
+    Object {
+      "id": "l9xit5mv6",
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Redux",
+    },
+    Object {
+      "id": 4,
+      "isCompleted": false,
+      "label": "Work",
+      "text": "Learn Jest",
+    },
+  ],
+}
+`;

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import "./Checkbox.css";
 
 class Checkbox extends Component {
-  toggleCheckboxChange = (e) => {
+  toggleCheckboxChange = () => {
     const { handleCheckboxChange } = this.props;
     handleCheckboxChange();
   }
@@ -15,7 +15,7 @@ class Checkbox extends Component {
       <div className="checkbox_container" >
         <label className="container">
             {label}
-            <input type="checkbox" onChange={(e) => this.toggleCheckboxChange(e)} checked={isChecked}  />
+            <input type="checkbox" onChange={this.toggleCheckboxChange} checked={isChecked}  />
             <span className="checkmark"></span>
         </label>
       </div>

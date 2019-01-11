@@ -6,7 +6,7 @@ import workIcon from "../icons/work.svg";
 import todoIcon from "../icons/todo-list.svg";
 import basketIcon from "../icons/basket.svg";
 
-const getIconByName = name => {
+export const getIconByName = name => {
   switch(name) {
     case "Work":
       return workIcon;

@@ -1,0 +1,789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem Component render snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoListItem
+    dispatch={[MockFunction]}
+    todo={
+      Object {
+        "id": 1,
+        "isCompleted": true,
+        "label": "TODOS",
+        "text": "Learn React",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Checkbox
+          handleCheckboxChange={[Function]}
+          id={1}
+          isChecked={true}
+          type="checkbox"
+        />,
+        <Conditional
+          condition={true}
+        >
+          <Label
+            crossText={true}
+            text="Learn React"
+          />
+          <Icon
+            icon="edit.svg"
+            onClick={[Function]}
+          />
+        </Conditional>,
+        <Conditional
+          condition={false}
+        >
+          <Input
+            handleInput={[Function]}
+            maxLength={50}
+            placeholder="Take a Note"
+            type="text"
+            value=""
+          />
+          <Icon
+            icon="tick.svg"
+            onClick={[Function]}
+          />
+        </Conditional>,
+        <Icon
+          icon="delete.svg"
+          onClick={[Function]}
+        />,
+      ],
+      "className": "listitemContainer",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleCheckboxChange": [Function],
+          "id": 1,
+          "isChecked": true,
+          "type": "checkbox",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Label
+              crossText={true}
+              text="Learn React"
+            />,
+            <Icon
+              icon="edit.svg"
+              onClick={[Function]}
+            />,
+          ],
+          "condition": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "crossText": true,
+              "text": "Learn React",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "edit.svg",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Input
+              handleInput={[Function]}
+              maxLength={50}
+              placeholder="Take a Note"
+              type="text"
+              value=""
+            />,
+            <Icon
+              icon="tick.svg"
+              onClick={[Function]}
+            />,
+          ],
+          "condition": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleInput": [Function],
+              "maxLength": 50,
+              "placeholder": "Take a Note",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "tick.svg",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "icon": "delete.svg",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Checkbox
+            handleCheckboxChange={[Function]}
+            id={1}
+            isChecked={true}
+            type="checkbox"
+          />,
+          <Conditional
+            condition={true}
+          >
+            <Label
+              crossText={true}
+              text="Learn React"
+            />
+            <Icon
+              icon="edit.svg"
+              onClick={[Function]}
+            />
+          </Conditional>,
+          <Conditional
+            condition={false}
+          >
+            <Input
+              handleInput={[Function]}
+              maxLength={50}
+              placeholder="Take a Note"
+              type="text"
+              value=""
+            />
+            <Icon
+              icon="tick.svg"
+              onClick={[Function]}
+            />
+          </Conditional>,
+          <Icon
+            icon="delete.svg"
+            onClick={[Function]}
+          />,
+        ],
+        "className": "listitemContainer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleCheckboxChange": [Function],
+            "id": 1,
+            "isChecked": true,
+            "type": "checkbox",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Label
+                crossText={true}
+                text="Learn React"
+              />,
+              <Icon
+                icon="edit.svg"
+                onClick={[Function]}
+              />,
+            ],
+            "condition": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "crossText": true,
+                "text": "Learn React",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": "edit.svg",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Input
+                handleInput={[Function]}
+                maxLength={50}
+                placeholder="Take a Note"
+                type="text"
+                value=""
+              />,
+              <Icon
+                icon="tick.svg"
+                onClick={[Function]}
+              />,
+            ],
+            "condition": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleInput": [Function],
+                "maxLength": 50,
+                "placeholder": "Take a Note",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": "tick.svg",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "delete.svg",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`TodoListItem Component render snapshot for events 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoListItem
+    dispatch={[MockFunction]}
+    todo={
+      Object {
+        "id": 1,
+        "isCompleted": true,
+        "label": "TODOS",
+        "text": "Learn React",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Checkbox
+          handleCheckboxChange={[Function]}
+          id={1}
+          isChecked={true}
+          type="checkbox"
+        />,
+        <Conditional
+          condition={true}
+        >
+          <Label
+            crossText={true}
+            text="Learn React"
+          />
+          <Icon
+            icon="edit.svg"
+            onClick={[Function]}
+          />
+        </Conditional>,
+        <Conditional
+          condition={false}
+        >
+          <Input
+            handleInput={[Function]}
+            maxLength={50}
+            placeholder="Take a Note"
+            type="text"
+            value=""
+          />
+          <Icon
+            icon="tick.svg"
+            onClick={[Function]}
+          />
+        </Conditional>,
+        <Icon
+          icon="delete.svg"
+          onClick={[Function]}
+        />,
+      ],
+      "className": "listitemContainer",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleCheckboxChange": [Function],
+          "id": 1,
+          "isChecked": true,
+          "type": "checkbox",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Label
+              crossText={true}
+              text="Learn React"
+            />,
+            <Icon
+              icon="edit.svg"
+              onClick={[Function]}
+            />,
+          ],
+          "condition": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "crossText": true,
+              "text": "Learn React",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "edit.svg",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Input
+              handleInput={[Function]}
+              maxLength={50}
+              placeholder="Take a Note"
+              type="text"
+              value=""
+            />,
+            <Icon
+              icon="tick.svg"
+              onClick={[Function]}
+            />,
+          ],
+          "condition": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleInput": [Function],
+              "maxLength": 50,
+              "placeholder": "Take a Note",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "icon": "tick.svg",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "icon": "delete.svg",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Checkbox
+            handleCheckboxChange={[Function]}
+            id={1}
+            isChecked={true}
+            type="checkbox"
+          />,
+          <Conditional
+            condition={true}
+          >
+            <Label
+              crossText={true}
+              text="Learn React"
+            />
+            <Icon
+              icon="edit.svg"
+              onClick={[Function]}
+            />
+          </Conditional>,
+          <Conditional
+            condition={false}
+          >
+            <Input
+              handleInput={[Function]}
+              maxLength={50}
+              placeholder="Take a Note"
+              type="text"
+              value=""
+            />
+            <Icon
+              icon="tick.svg"
+              onClick={[Function]}
+            />
+          </Conditional>,
+          <Icon
+            icon="delete.svg"
+            onClick={[Function]}
+          />,
+        ],
+        "className": "listitemContainer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleCheckboxChange": [Function],
+            "id": 1,
+            "isChecked": true,
+            "type": "checkbox",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Label
+                crossText={true}
+                text="Learn React"
+              />,
+              <Icon
+                icon="edit.svg"
+                onClick={[Function]}
+              />,
+            ],
+            "condition": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "crossText": true,
+                "text": "Learn React",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": "edit.svg",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Input
+                handleInput={[Function]}
+                maxLength={50}
+                placeholder="Take a Note"
+                type="text"
+                value=""
+              />,
+              <Icon
+                icon="tick.svg"
+                onClick={[Function]}
+              />,
+            ],
+            "condition": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleInput": [Function],
+                "maxLength": 50,
+                "placeholder": "Take a Note",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "icon": "tick.svg",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "icon": "delete.svg",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

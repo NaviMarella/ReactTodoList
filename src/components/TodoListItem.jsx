@@ -65,7 +65,7 @@ class TodoListItem extends Component{
     }
 
     render(){
-        const {todo = {}} = this.props;
+        const { todo } = this.props;
         const { isEditMode, currentText } = this.state;
         const {text, isCompleted, id} = todo;
         return (
@@ -83,6 +83,10 @@ class TodoListItem extends Component{
             </div>
         )
     }
+}
+
+TodoListItem.defaultProps = {
+    todo: {}
 }
 
 TodoListItem.propTypes = {

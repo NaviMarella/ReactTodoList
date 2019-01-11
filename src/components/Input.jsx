@@ -28,7 +28,8 @@ Input.propTypes = {
     placeholder: PropTypes.string,
     type: PropTypes.string,
     value: PropTypes.string,
-    maxLength: PropTypes.number
+    maxLength: PropTypes.number,
+    handleInput: PropTypes.func.isRequired
 };
 
 

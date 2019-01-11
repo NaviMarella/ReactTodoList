@@ -6,7 +6,7 @@ import TodoListItem from "../components/TodoListItem";
 import "./TodoListContainer.css";
 import Conditional from '../components/Conditional';
 
-const TodoListContainer = ({todoList = [], dispatch, currentLabel}) => {
+const TodoListContainer = ({todoList, dispatch, currentLabel}) => {
     let todos = todoList.filter(todo => todo && !todo.isCompleted);
     return(
          <Conditional condition={todoList.length > 0}>
@@ -25,6 +25,10 @@ const TodoListContainer = ({todoList = [], dispatch, currentLabel}) => {
             </Box>
          </Conditional>
     )
+}
+
+TodoListContainer.defaultProps = {
+    todoList: []
 }
 
 TodoListContainer.propTypes = {
