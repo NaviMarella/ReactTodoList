@@ -5,10 +5,9 @@ import todoIcon from "../icons/todo.svg";
 import "./Header.css";
 
 const Header = ({showOrHideSidebar}) => {
-
     return (
         <header className="header">
-            <img alt="" onClick={() => showOrHideSidebar()} className={["header_logo", "hamLogo"].join(" ")} src={hamburgerIcon}></img>
+            <img alt="" onClick={showOrHideSidebar} className="header_logo hamLogo" src={hamburgerIcon}></img>
             <div className="header_title_container">
                 <img alt="" className="header_logo" src={todoIcon}></img>
                 <h1>Todoist</h1>

@@ -16,7 +16,7 @@ const TodoListContainer = ({todoList, dispatch, currentLabel}) => {
                     <Label className="todolist__count" text = {`${todos.length}/${todoList.length}`}/>
                 </div>
                 {
-                    todoList.map((item, index) => {
+                    todoList.map(item => {
                         return (
                             <TodoListItem key={item.id} todo={item} currentLabel={currentLabel} dispatch={dispatch}/>
                         )

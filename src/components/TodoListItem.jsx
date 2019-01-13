@@ -19,7 +19,6 @@ class TodoListItem extends Component{
         }
     }
 
-
     handleCheckboxChange = () => {
         const{ dispatch, todo } = this.props;
         dispatch({

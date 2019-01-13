@@ -19,12 +19,17 @@ export const getIconByName = name => {
   }
 }
 
-const Icon = ({icon, iconName, altText ="", ...otherProps}) => {
+const Icon = ({icon, iconName, altText, ...otherProps}) => {
+  let iconSrc = icon ? icon : getIconByName(iconName);
     return (
         <Box className="icon_container" {...otherProps}>
-           <img alt={altText} src={ icon ? icon : getIconByName(iconName)}></img>
+           <img alt={altText} src={ iconSrc }></img>
         </Box>
     )
+}
+
+Icon.defaultProps = {
+  altText: ""
 }
 
 Icon.propTypes = {

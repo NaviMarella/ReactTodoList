@@ -1,21 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 import "./Input.css";
 
-class Input extends Component{
-    handleInputChange = (e) => {
-        const { handleInput } = this.props;
+const Input = ({ type, value, maxLength, placeholder, handleInput }) => {
+    function handleInputChange(e){
         handleInput(e.target.value);
     }
-
-    render(){
-        const { type, value, maxLength, placeholder } = this.props;
-        return (
-            <div className="input_container">
-                <input type={type} maxLength={maxLength} value={value} placeholder={placeholder} onChange={this.handleInputChange} />
-            </div>
-        )
-    }
+    return(
+        <div className="input_container">
+            <input
+                type={type}
+                maxLength={maxLength}
+                value={value}
+                placeholder={placeholder}
+                onChange={handleInputChange}
+            />
+        </div>
+    )
 }
 
 Input.defaultProps = {

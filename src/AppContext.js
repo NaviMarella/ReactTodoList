@@ -7,8 +7,7 @@ export class AppProvider extends React.Component {
     ...initialState,
     dispatch: action => {
       this.setState(state => RootReducer(state, action));
-    },
-
+    }
   };
   render() {
     const { state, props: { children } } = this;
